@@ -1,7 +1,7 @@
 #include <stdio.h>
 int main ()
 {
-    printf("%d\n", 8);        
+    printf("%d\n", 128);        
     printf("%f\n", 128.0);    
     printf("%f\n", 167.5);    
 
