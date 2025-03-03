@@ -23,16 +23,19 @@ int main() {
     average = (math + science + english) / 3;
 
     // Determine grade
-    if (average >= 90)
+    if (average >= 90 && average <= 100)
         grade = 'A';
-    else if (average >= 80)
+    else if (average >= 80 && average < 90)
         grade = 'B';
-    else if (average >= 70)
+    else if (average >= 70 && average < 80)
         grade = 'C';
-    else if (average >= 60)
+    else if (average >= 60 && average < 70)
         grade = 'D';
-    else
+    else if (average <= 60)
         grade = 'F';
+
+    else
+        printf("Invalid average marks");
 
     // Output student details, marks, average, and grade
     printf("\nStudent Name: %s\n", studentName);
@@ -42,6 +45,7 @@ int main() {
     printf("English Marks: %.2f\n", english);
     printf("Average Marks: %.2f\n", average);
     printf("Grade: %c\n", grade);
+    
 
     return 0;
 }
