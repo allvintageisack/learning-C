@@ -7,8 +7,11 @@ int main()
     scanf("%d", &Marks);
     if(Marks>=40)
     {
-        printf("You have passed");
+        printf("You have passed!");
 
+    }
+    else{
+        printf("You have failed");
     }
     return 0;
 }
