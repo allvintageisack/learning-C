@@ -7,4 +7,7 @@ int main() {
   return 0;
 }
 
+// What is \n ? The new character (\n) is called an escape Sequence,
+// it forces the cursor to change it's position to the begining of the next line on the screen.
+
 
