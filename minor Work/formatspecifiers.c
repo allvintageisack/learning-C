@@ -14,7 +14,7 @@ int secondnum =6;
 float secondnum2 = 6.55;
 char myletter = 'A'; // note in char we use single quotes and not double quotes
 
-printf("%d", secondnum);
+printf("My favorite number is : %d", secondnum); //To combine both text and a variable, separate them with a comma inside the printf() function
 printf("%f", secondnum2);
     return 0;
 }
