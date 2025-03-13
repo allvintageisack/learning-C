@@ -20,4 +20,4 @@ printf("%f", secondnum2);
 }
 
 //i had to push code
-//day2
+//day2 // day3 
